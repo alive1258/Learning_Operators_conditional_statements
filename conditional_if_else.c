@@ -6,7 +6,10 @@ int main(){
     if(tk >=100){
         printf(" i eat burgur\n");
     }
+    else if( tk >=50 ){
+        printf("i eat pizza\n");
+    }
     else{
-        printf("i don't eat burger\n");
+        printf("kisui kabo na\n");
     }
 }
