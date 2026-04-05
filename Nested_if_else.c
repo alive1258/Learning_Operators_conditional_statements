@@ -1,9 +1,10 @@
 #include <stdio.h>
-int main(){
+int main()
+{
     int tk;
     scanf("%d",&tk);
 
-    if(tk >=5000){
+    if(tk >= 5000){
         printf("cox jabo\n");
         if(tk >=10000)
         {
