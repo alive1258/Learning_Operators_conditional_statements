@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main(){
-    int a =10;
+    float a =5;
     int b=2;
     int sum =a+b;
     printf("sumation of %d and %d is %d\n",a,b,sum);
@@ -9,8 +9,8 @@ int main(){
     printf("subtraction of %d and %d is %d\n",a,b,sub);
 
     int mul =a* b;
-    printf("multiplication of %d and %d is %d\n",a,b,mul);
-    int div = a / b;
-    printf("division of  is %d\n",div);
+    printf("multiplication is %f\n",mul);
+    float div = a / b;
+    printf("division of %f and %d is %f\n",a,b,div);
     return 0;
 }
