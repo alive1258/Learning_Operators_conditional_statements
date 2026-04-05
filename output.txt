@@ -1,2 +1,3 @@
 sumation of 5 and 7 is 12
 subtraction of 5 and 7 is -2
+multiplication of 5 and 7 is 35

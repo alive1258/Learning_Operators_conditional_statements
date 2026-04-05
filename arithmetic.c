@@ -7,5 +7,8 @@ int main(){
     printf("sumation of %d and %d is %d\n",a,b,sum);
     int sub= a-b;
     printf("subtraction of %d and %d is %d\n",a,b,sub);
+
+    int mul =a* b;
+    printf("multiplication of %d and %d is %d\n",a,b,mul);
     return 0;
 }
