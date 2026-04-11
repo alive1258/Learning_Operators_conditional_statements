@@ -1,13 +1,29 @@
+// #include <stdio.h>
+// int main() {
+//     int num;
+//     printf("Enter an integer: ");
+//     scanf("%d", &num);
+
+//     if (num % 2 == 0) {
+//         printf("%d is an even number.\n", num);
+//     } else {
+//         printf("%d is an odd number.\n", num);
+//     }
+
+//     return 0;
+// }
+
+
 #include <stdio.h>
 int main() {
-    int num;
-    printf("Enter an integer: ");
-    scanf("%d", &num);
+    int N;
 
-    if (num % 2 == 0) {
-        printf("%d is an even number.\n", num);
+    scanf("%d", &N);
+
+    if (N % 3 == 0) {
+        printf("%d YES\n", N);
     } else {
-        printf("%d is an odd number.\n", num);
+        printf("%d NO\n", N);
     }
 
     return 0;
