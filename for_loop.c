@@ -1,9 +1,11 @@
 #include <stdio.h>
 
-int main(){
+int main()
+{
     int i;
-     for (int i =1; i<=100; i++){
+    for (int i = 1; i <= 5; i++)
+    {
         printf("I am sorry\n ");
-     }
+    }
     return 0;
 }
