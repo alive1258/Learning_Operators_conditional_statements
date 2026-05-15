@@ -2,13 +2,19 @@
 int main()
 {
     int n;
-    int factorial = 1;
+
     scanf("%d", &n);
     for (int i = 1; i <= n; i++)
 
     {
-        factorial = factorial * i;
+        int x;
+        scanf("%d", &x);
+        long long factorial = 1;
+        for (int j = 1; j <= x; j++)
+        {
+            factorial = factorial * j;
+        }
+        printf("%lld\n", factorial);
     }
-    printf("%d\n", factorial);
     return 0;
 }
